@@ -1,0 +1,49 @@
+@import '../../colors.scss';
+
+.form {
+    padding: 1rem;
+}
+
+.element{
+    margin-bottom: 0.5rem;
+}
+
+.element label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.element input{
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    padding: 0.25rem;
+    width: 100%;
+    font: inherit;
+}
+
+img{
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+.actions{
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.actions button{
+    cursor: pointer;
+    background-color: $button-color;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid $border-color;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.actions button:hover{
+    background-color: $button-color_hover;
+    border-color: $border-color_hover;
+}
